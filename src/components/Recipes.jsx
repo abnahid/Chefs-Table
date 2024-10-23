@@ -5,7 +5,7 @@ const Recipes = ({ addRecipeToQueue }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch("https://www.jsonkeeper.com/b/Y29T")
+    fetch("./public/recipes.JSON")
       .then((res) => res.json())
       .then((data) => setRecipes(data.recipes));
   }, []);
