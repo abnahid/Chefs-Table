@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 
-const Recipes = () => {
+const Recipes = ({ addRecipeToQueue }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
@@ -51,7 +52,10 @@ const Recipes = () => {
                     <p>{recipe.calories} minute.</p>
                   </div>
                 </div>
-                <button className="flex items-center justify-center px-6 py-3 bg-green-500 rounded-full text-lg font-medium text-gray-900">
+                <button
+                  onClick={() => addRecipeToQueue(recipe)}
+                  className="btn px-6 bg-green-500 rounded-full text-lg font-medium text-gray-800"
+                >
                   Want to Cook
                 </button>
               </div>
