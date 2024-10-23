@@ -1,0 +1,95 @@
+{
+    "recipes": [
+      {
+        "recipe_id": "101",
+        "recipe_name": "Grilled Chicken Salad",
+        "short_description": "A healthy salad with grilled chicken, fresh greens, and a tangy vinaigrette.",
+        "ingredients": [
+          "250 g chicken breast",
+          "100 g lettuce",
+          "50 g cherry tomatoes",
+          "30 ml olive oil",
+          "10 ml balsamic vinegar"
+        ],
+        "preparing_time": 25,
+        "calories": 350,
+        "recipe_image": "https://i.ibb.co/Xb6qSMx/Grilled-Chicken-Salad.webp"
+      },
+      {
+        "recipe_id": "102",
+        "recipe_name": "Pasta Carbonara",
+        "short_description": "Classic Italian pasta with a creamy egg sauce and crispy pancetta.",
+        "ingredients": [
+          "300 g spaghetti",
+          "150 g pancetta",
+          "2 large eggs",
+          "50 g Parmesan cheese",
+          "1 clove garlic"
+        ],
+        "preparing_time": 20,
+        "calories": 400,
+        "recipe_image": "https://i.ibb.co/Dk9yfXP/Pasta-Carbonara.webp"
+      },
+      {
+        "recipe_id": "103",
+        "recipe_name": "Mushroom Risotto",
+        "short_description": "Creamy risotto made with fresh mushrooms, garlic, and Parmesan.",
+        "ingredients": [
+          "200 g Arborio rice",
+          "100 g mushrooms",
+          "50 g Parmesan cheese",
+          "30 ml white wine",
+          "1 clove garlic"
+        ],
+        "preparing_time": 30,
+        "calories": 450,
+        "recipe_image": "https://i.ibb.co/M8GNrFk/Mushroom-Risotto.webp"
+      },
+      {
+        "recipe_id": "104",
+        "recipe_name": "Beef Stir Fry",
+        "short_description": "A savory beef stir fry with vegetables and a soy-based sauce.",
+        "ingredients": [
+          "300 g beef strips",
+          "100 g bell peppers",
+          "50 g broccoli",
+          "30 ml soy sauce",
+          "20 ml sesame oil"
+        ],
+        "preparing_time": 15,
+        "calories": 380,
+        "recipe_image": "https://i.ibb.co/GtWdnv0/Beef-Stir-Fry.webp"
+      },
+      {
+        "recipe_id": "105",
+        "recipe_name": "Vegan Buddha Bowl",
+        "short_description": "A nourishing bowl with quinoa, roasted vegetables, and tahini dressing.",
+        "ingredients": [
+          "100 g quinoa",
+          "50 g sweet potatoes",
+          "30 g spinach",
+          "20 g avocado",
+          "15 ml tahini"
+        ],
+        "preparing_time": 20,
+        "calories": 300 ,
+        "recipe_image": "https://i.ibb.co/YWQBQR4/Vegan-Buddha-Bowl.webp"
+      },
+      {
+        "recipe_id": "106",
+        "recipe_name": "Chocolate Brownies",
+        "short_description": "Rich, fudgy chocolate brownies with a crispy top and gooey center.",
+        "ingredients": [
+          "200 g dark chocolate",
+          "150 g butter",
+          "100 g flour",
+          "100 g sugar",
+          "3 large eggs"
+        ],
+        "preparing_time": 35,
+        "calories": 500 ,
+        "recipe_image": "https://i.ibb.co/5MNXpPk/Chocolate-Brownies.webp"
+      }
+    ]
+  }
+  
