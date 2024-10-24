@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import Recipes from "./components/Recipes";
 import Sidebar from "./components/Sidebar";
 
@@ -35,19 +36,22 @@ function App() {
     setTotalCalories(totalCalories + calorie);
   };
   return (
-    <div className="container mx-auto px-4">
-      <Banner></Banner>
-      <section className="flex flex-col md:flex-row gap-6">
-        <Recipes addRecipeToQueue={addRecipeToQueue}></Recipes>
-        <Sidebar
-          recipeQueue={recipeQueue}
-          handleRemove={handleRemove}
-          preparedRecipe={preparedRecipe}
-          calculateTimeAndCalories={calculateTimeAndCalories}
-          totalCalories={totalCalories}
-          totalTime={totalTime}
-        ></Sidebar>
-      </section>
+    <div>
+      <div className="container mx-auto px-4 mb-8">
+        <Banner></Banner>
+        <section className="flex flex-col md:flex-row gap-6">
+          <Recipes addRecipeToQueue={addRecipeToQueue}></Recipes>
+          <Sidebar
+            recipeQueue={recipeQueue}
+            handleRemove={handleRemove}
+            preparedRecipe={preparedRecipe}
+            calculateTimeAndCalories={calculateTimeAndCalories}
+            totalCalories={totalCalories}
+            totalTime={totalTime}
+          ></Sidebar>
+        </section>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
