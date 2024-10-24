@@ -5,7 +5,9 @@ const Recipes = ({ addRecipeToQueue }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    fetch("./public/recipes.JSON")
+    fetch(
+      "https://raw.githubusercontent.com/abnahid/Chefs-Table/refs/heads/main/public/recipes.JSON"
+    )
       .then((res) => res.json())
       .then((data) => setRecipes(data.recipes));
   }, []);
